@@ -1,19 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/5AnSQOnY)
-# Assignment 1
-
-## Example commands
-
-### Environment
-
-It's highly recommended to use a virtual environment (e.g. conda, venv) for this assignment.
-
-Example of virtual environment creation using conda:
-```
-conda create -n env_name python=3.10
-conda activate env_name
-python -m pip install -r requirements.txt
-```
-
 ### Train and predict commands
 
 Example commands (subject to change, just for inspiration):
@@ -31,12 +15,3 @@ The commands can be run from the root directory of the project.
 pytest tests/test_perceptron.py
 pytest tests/test_multilayer_perceptron.py
 ```
-
-### Submission
-
-Ensure that the name of the submission files (in the `results/` subfolder) are:
-
-- `perceptron_newsgroups_test_predictions.csv`
-- `mlp_newsgroups_test_predictions.csv`
-- `perceptron_sst2_test_predictions.csv`
-- `mlp_sst2_test_predictions.csv`
